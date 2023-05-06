@@ -2,9 +2,6 @@ import Link from 'next/link'
 
 export const Navigation = () => (
   <nav>
-    <Link href="/weather">
-      <span>Weather</span> ☀️
-    </Link>
     <Link href="/fox-hollow">
       4. <span>Fox Hollow</span>
     </Link>
