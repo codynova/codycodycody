@@ -3,6 +3,7 @@ import { Section } from '../../components/Section'
 import { BouldersByGrade } from '../../components/BouldersByGrade'
 import { Gallery } from '../../components/Gallery'
 import { MapPin } from '../../components/MapPin'
+import { MountainProjectLink } from '../../components/MountainProjectLink'
 
 export default function Page() {
   return (
@@ -24,6 +25,7 @@ export default function Page() {
           }}
         />
         <MapPin href="https://maps.apple.com/?ll=38.995808,-94.532158&q=Dropped%20Pin&t=m" />
+        <MountainProjectLink href="https://www.mountainproject.com/area/119946748/fox-hollow-trail" />
         <p>
           The Fox Hollow area is located behind the Lakeside Nature Center. From
           I-435, take Exit 67 and head west on Gregory Boulevard for 1.8 miles.

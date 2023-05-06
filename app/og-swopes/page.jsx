@@ -3,6 +3,7 @@ import { Section } from '../../components/Section'
 import { BouldersByGrade } from '../../components/BouldersByGrade'
 import { Gallery } from '../../components/Gallery'
 import { MapPin } from '../../components/MapPin'
+import { MountainProjectLink } from '../../components/MountainProjectLink'
 
 export default function Page() {
   return (
@@ -24,6 +25,7 @@ export default function Page() {
           }}
         />
         <MapPin href="https://maps.apple.com/?address=7557%E2%80%937573%20Blue%20River%20Rd,%20Kansas%20City,%20MO%20%2064132,%20United%20States&auid=14498827317347731207&ll=38.985043,-94.534486&lsp=9902&q=Blue%20River%20Rail%20Trail&t=m" />
+        <MountainProjectLink href="https://www.mountainproject.com/area/105963053/swope-boulders" />
         <p>
           From the intersection of 71-HWY (I-49) head 0.9 miles north on Blue
           River Road and park at the pullout on the side of the road. If you are

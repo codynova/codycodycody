@@ -3,6 +3,7 @@ import { Section } from '../../components/Section'
 import { BouldersByGrade } from '../../components/BouldersByGrade'
 import { Gallery } from '../../components/Gallery'
 import { MapPin } from '../../components/MapPin'
+import { MountainProjectLink } from '../../components/MountainProjectLink'
 
 export default function Page() {
   return (
@@ -24,6 +25,7 @@ export default function Page() {
           }}
         />
         <MapPin href="https://maps.apple.com/?address=Kansas%20City,%20MO%20%2064138,%20United%20States&auid=10468586071561053211&ll=38.986759,-94.514183&lsp=9902&q=Swope%20Park%20Bike%20Trails&t=m" />
+        <MountainProjectLink href="https://www.mountainproject.com/area/107829008/wudchuk-boulders" />
         <p>
           The main parking for the trails is at the intersection of Oldham and
           Oakwood as you enter the <em>Camp Lake of The Woods</em> area. The
