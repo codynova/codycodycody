@@ -8,9 +8,12 @@ body {
   font-family: var(--font-poppins);
 }
 
-a, a:active, a:visited {
+a, a:active, a:visited, a:focus {
   color: rgb(0, 69, 197);
   font-weight: 500;
+  outline: 0;
+  -moz-outline-style: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 h1, h2 {
