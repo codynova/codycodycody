@@ -8,8 +8,8 @@ export default function Page() {
   return (
     <>
       <Back />
-      <Section className="og-swope">
-        <h1>OG Swope</h1>
+      <Section className="og-swopes">
+        <h1>OG Swopes</h1>
         <BouldersByGrade
           data={{
             v0: 9,

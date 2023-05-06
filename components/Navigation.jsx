@@ -11,8 +11,8 @@ export const Navigation = () => (
     <Link href="/bike-trail">
       5. <span>Bike Trail</span>
     </Link>
-    <Link href="/og-swope">
-      9. <span>OG Swope</span>
+    <Link href="/og-swopes">
+      9. <span>OG Swopes</span>
     </Link>
   </nav>
 )
