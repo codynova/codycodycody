@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+
+a, a:active, a:visited {
+  color: rgb(0, 69, 197);
+  font-weight: 500;
+}
+
+h1, h2 {
+  font-size: 5.5rem;
+  font-weight: 500;
+  line-height: 0.8;
+  letter-spacing: -0.2rem;
+  
+
+  @media (min-width: 960px) {
+    font-size: 10rem;
+  }
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 4ch;
+  line-height: 1.7;
+  padding: 0 2rem 1rem 2rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a span {
+  text-decoration: underline;
+}
+
+nav a:first-of-type {
+  margin-bottom: 1.5rem;
+}
+
+.back {
+  font-size: 2ch;
+  position: absolute;
+  top: 0.75rem;
+  left: 1rem;
+  text-decoration: none;
+}
+
+.back span {
+  text-decoration: underline;
+}
+
+section {
+  display: flex;
+  padding: 0.5rem;
+  padding-top: 6rem;
+  padding-right: 1rem;
+}
+
+section.swope-park {
+  background-color: #73f2c3;
+  color: #00428e;
+  padding-top: 1.5rem;
+}
+
+section.weather {
+  background-color: #ece141;
+  color: #2b3ac7;
+}
+
+section.fox-hollow {
+  background-color: #ff8e81;
+  color: #3731d3;
+}
+
+section.bike-trail {
+  background-color: #b1ed8a;
+  color: #511578;
+}
+
+section.og-swope {
+  background-color: #ffc64a;
+  color: #0e3cb8;
+}
+
+section > div {
+  width: 100%;
+  max-width: 1400px;
+}
+
+section p {
+  font-size: 2.5ch;
+  margin: 2rem 0;
+  padding: 0 2rem;
+  text-align: left;
+}
+
+.boulder-grades {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 30ch;
+  font-family: var(--font-raleway);
+  font-size: 2.5ch;
+  margin: 2rem 0;
+
+  @media (min-width: 560px) {
+    font-size: 3ch;
+    margin: 2.5ch 0;
+  }
+
+  @media (min-width: 720px) {
+    font-size: 3.5ch 0;
+    margin: 3ch;
+  }
+
+  @media (min-width: 960px) {
+    font-size: 4ch;
+    margin: 3.5ch 0;
+  }
+}
+
+.boulder-grades > div {
+  display: flex;
+  flex-direction: column;
+  width: 2ch;
+  margin: 0 0.325ch;
+}
+
+.boulder-grades > div > span {
+  height: 2ch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 85%;
+}
+
+.boulder-grades > div > span:nth-child(1) {
+  font-size: 100%;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.18);
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery img {
+  max-width: min(80vw, 500px);
+  padding: 1rem;
+  border-radius: 18px;
+  filter: 
+    contrast(1.1) 
+    brightness(1.1) 
+    drop-shadow(rgba(46, 38, 90, 0.15) 0.5px 1px 1px) 
+    drop-shadow(rgba(46, 38, 90, 0.15) 1px 2px 2px) 
+    drop-shadow(rgba(46, 38, 90, 0.15) 2px 4px 4px) 
+    drop-shadow(rgba(46, 38, 90, 0.15) 4px 8px 8px) 
+    drop-shadow(rgba(46, 38, 90, 0.15) 8px 16px 16px);
+}
+
+.pin {
+  width: 100%;
+  font-size: 3ch;
+  text-align: center;
+
+  @media (min-width: 960px) {
+    font-size: 3ch;
+  }
+}
+
+.pin a {
+  text-decoration: none;
+}
+
+.pin a span {
+  text-decoration: underline;
+}
