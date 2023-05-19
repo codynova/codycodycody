@@ -9,7 +9,7 @@ export default function Page() {
       <Section className="weather">
         <h1>Weather</h1>
         <p>Looks good my dude 👍</p>
-        <Gallery data={['/weather/1.webp', '/weather/2.webp']} />
+        <Gallery data={['/weather/1.jpg', '/weather/2.jpg']} />
       </Section>
     </>
   )
