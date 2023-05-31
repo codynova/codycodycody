@@ -1,0 +1,87 @@
+[
+  {
+    "area": "Swope Park",
+    "order": 1,
+    "slug": "swope-park",
+    "areas": [
+      {
+        "area": "Fox Hollow",
+        "order": 4,
+        "slug": "fox-hollow",
+        "grades": {
+          "v0": 1,
+          "v1": 8,
+          "v2": 10,
+          "v3": 10,
+          "v4": 5,
+          "v5": 1,
+          "v6": 0,
+          "v7": 0,
+          "v8": 0
+        },
+        "mapPinHref": "https://maps.apple.com/?ll=38.995808,-94.532158&q=Dropped%20Pin&t=m",
+        "mountainProjectHref": "https://www.mountainproject.com/area/119946748/fox-hollow-trail",
+        "directions": "The Fox Hollow area is located behind the Lakeside Nature Center. From I-435, take Exit 67 and head west on Gregory Boulevard for 1.8 miles. Park in the lot for the Nature Center and walk around the left side of the building south-bound, and follow the trail that leads to the boulders. Approach time is 5 minutes.",
+        "images": [
+          "/fox-hollow/map.webp",
+          "/fox-hollow/boulders/1.webp",
+          "/fox-hollow/boulders/2.webp",
+          "/fox-hollow/boulders/3.webp",
+          "/fox-hollow/boulders/4.webp"
+        ]
+      },
+      {
+        "area": "Bike Trail",
+        "order": 5,
+        "slug": "bike-trail",
+        "grades": {
+          "v0": 12,
+          "v1": 17,
+          "v2": 12,
+          "v3": 9,
+          "v4": 0,
+          "v5": 0,
+          "v6": 0,
+          "v7": 0,
+          "v8": 0
+        },
+        "mapPinHref": "https://maps.apple.com/?address=Kansas%20City,%20MO%20%2064138,%20United%20States&auid=10468586071561053211&ll=38.986759,-94.514183&lsp=9902&q=Swope%20Park%20Bike%20Trails&t=m",
+        "mountainProjectHref": "https://www.mountainproject.com/area/107829008/wudchuk-boulders",
+        "directions": "The main parking for the trails is at the intersection of Oldham and Oakwood as you enter the Camp Lake of The Woods area. The various boulders can be parked under at pullouts on Oldham, or hike in from the trailhead. Approach times can vary 5 to 30 minutes depending on where you leave the car. See map for general locations of boulders. The entire trail follows a limestone cliff.",
+        "images": [
+          "/bike-trail/map.webp",
+          "/bike-trail/boulders/1.webp",
+          "/bike-trail/boulders/2.webp",
+          "/bike-trail/boulders/3.webp",
+          "/bike-trail/boulders/4.webp",
+          "/bike-trail/boulders/5.webp"
+        ]
+      },
+      {
+        "area": "OG Swopes",
+        "order": 9,
+        "slug": "og-swopes",
+        "grades": {
+          "v0": 9,
+          "v1": 9,
+          "v2": 20,
+          "v3": 10,
+          "v4": 6,
+          "v5": 2,
+          "v6": 1,
+          "v7": 1,
+          "v8": 0
+        },
+        "mapPinHref": "https://maps.apple.com/?address=7557%E2%80%937573%20Blue%20River%20Rd,%20Kansas%20City,%20MO%20%2064132,%20United%20States&auid=14498827317347731207&ll=38.985043,-94.534486&lsp=9902&q=Blue%20River%20Rail%20Trail&t=m",
+        "mountainProjectHref": "https://www.mountainproject.com/area/105963053/swope-boulders",
+        "directions": "From the intersection of 71-HWY (I-49) head 0.9 miles north on Blue River Road and park at the pullout on the side of the road. If you are coming from Oldham Road it is 0.7 miles past the golf course. Follow a trail south along the drainage for approximately 200 feet. Take a steep trail up the hillside to the left. This will lead you to the Pocket Boulder.",
+        "images": [
+          "/og-swopes/map.webp",
+          "/og-swopes/boulders/1.webp",
+          "/og-swopes/boulders/2.webp",
+          "/og-swopes/boulders/3.webp"
+        ]
+      }
+    ]
+  }
+]
